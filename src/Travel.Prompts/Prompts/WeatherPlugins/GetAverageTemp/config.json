@@ -1,0 +1,18 @@
+{
+"schema": 1,
+"type": "completion",
+"description": "Get the average temperature for a location",
+"execution_settings": {
+    "default": {
+        "max_tokens": 1200,
+        "temperature": 0
+    }
+},
+"input_variables": [
+    {
+        "name": "input",
+        "description": "Details about the user's travel plans",
+        "required": true
+    }
+]
+}
